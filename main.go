@@ -2,7 +2,14 @@ package main
 
 import "fmt"
 
+const Pi = 3.14
+
 func main() {
-	v := 3.14 + 0.2i
-	fmt.Printf("v is of type %T\n", v)
+	const World = "世界"
+	fmt.Println("Hello", World)
+	fmt.Println("Happy", Pi, "Day")
+
+	const Truth = true
+	fmt.Println("Go rules?", Truth)
+	fmt.Printf("format is %T\n", Truth)
 }
